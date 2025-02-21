@@ -29,15 +29,16 @@ const CONFIG = {
       },
     },
     external: {},
+  },
   seo: {
     title: 'Portfolio of Ariful Alam',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'syed-huzaifa-ali-h532',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -47,35 +48,28 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'huzaifa.ali532',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'huzaifa.ali532@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1tiPtTuOwBoqA8rjMI-AA9XHx1DTbHBus8RV9ECcmkB0/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+    'Shell Scripting', 'Python', 'SQL','Git',
+    'Amazon Kinesis', 'Apache Kafka', 'Google Cloud PubSub',
+    'Apache Airflow',
+    'Apache Spark', 'Amazon Glue', 'Apache Beam', 'Google Cloud Dataflow',
+    'Google Cloud Functions', 'Databricks', 'Docker',
+    'Microsoft Power BI',
+    'Amazon Bucket', 'ElasticSearch', 'Google Artifact Registry', 'Google Bucket', 'Google BigQuery', 'Redis', 'Postgres'
+],
   experiences: [
     {
       company: 'Company Name',
