@@ -20,7 +20,18 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['SydHzf/Data_Science','SydHzf/DataScience','SydHzf/SydHzf_portfolio'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['SydHzf/Data_Science',
+                     'SydHzf/DataScience',
+                     'SydHzf/SydHzf_portfolio',
+                     'SydHzf/sydhzf.github.io',
+                     'SydHzf/data-engineer-handbook',
+                     'SydHzf/MicroProcessorP',
+                      'SydHzf/Statistics',
+                      'SydHzf/DSA',
+                      'SydHzf/dapp-scaffold',
+                      'SydHzf/Travel-Mate',
+                      'SydHzf/AlgorithmAndDataStructureInJava',
+                      'SydHzf/Python-Practice'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
