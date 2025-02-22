@@ -20,8 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['SydHzf/Data_Science',
-                     'SydHzf/DataScience',
+          projects: ['SydHzf/DataScience',
                      'SydHzf/SydHzf_portfolio',
                      'SydHzf/sydhzf.github.io',
                      'SydHzf/data-engineer-handbook',
