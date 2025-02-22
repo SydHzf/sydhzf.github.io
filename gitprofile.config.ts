@@ -120,8 +120,8 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'About',
-      conferenceName: 'Me',
+      title: '',
+      conferenceName: '',
       journalName: '',
       authors: '',
       link: '',
