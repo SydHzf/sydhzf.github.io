@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['SydHzf/Data_Science'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['SydHzf/Data_Science','SydHzf/DataScience','SydHzf/SydHzf_portfolio'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['SydHzf/Airflow-Reddit-DPE', ' SydHzf/cdc-postgres'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['SydHzf/Airflow-Reddit-DPE', ' SydHzf/cdc-postgres','SydHzf/traveling-guider'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {},
@@ -89,7 +89,7 @@ const CONFIG = {
   certifications: [
     {
       name: 'Applied Data Science with Machine Learning',
-      body: 'Lorem ipsum dolor sit amet',
+      body: '',
       year: 'January 2021',
       link: 'https://drive.google.com/file/d/1FTV5nQoF3c6avZIkmemj7unWjs3_0lzF/view?usp=drive_link',
     },
@@ -103,7 +103,7 @@ const CONFIG = {
     },
     {
       institution: 'Govt. College For Men, Nazimabad',
-      degree: 'intermediate',
+      degree: 'Intermediate in Pre Engineering',
       from: '2017',
       to: '2019',
     },
@@ -212,7 +212,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
