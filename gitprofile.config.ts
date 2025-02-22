@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: true, // Forked projects will not be displayed if set to true.
+          forks: false, // Forked projects will not be displayed if set to true.
           projects: ['SydHzf/Data_Science','SydHzf/DataScience','SydHzf/SydHzf_portfolio'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -206,13 +206,13 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
-  enablePWA: false,
+  enablePWA: true,
 };
 
 export default CONFIG;
