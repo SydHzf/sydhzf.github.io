@@ -1,6 +1,18 @@
 // gitprofile.config.ts
 
 const CONFIG = {
+  about: {
+    title: 'About Me',
+    description: `
+      Hi, I'm Syed Huzaifa Ali, a passionate Data Engineer with experience in building scalable data pipelines and real-time streaming solutions.
+      I specialize in technologies like Apache Airflow, Apache Beam, Apache Kafka, Spark, and Google Cloud services.
+
+      Currently, I am working at StackWeavers, where I design and optimize ETL workflows, handle big data processing, and ensure seamless data orchestration.
+      I also love sharing my knowledge through blogs and content on essential skills for success in data engineering.
+
+      When I'm not working with data, you can find me exploring new technologies, reading about system design, or contributing to open-source projects.
+    `,
+  },
   github: {
     username: 'sydhzf', // Your GitHub org/user name. (This is the only required config)
   },
