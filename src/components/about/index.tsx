@@ -1,3 +1,4 @@
+/// <reference path="../../../gitprofile.config.ts" />
 import CONFIG from '../../../gitprofile.config';
 
 
