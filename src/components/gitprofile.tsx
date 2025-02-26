@@ -30,7 +30,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
-import About from './About';
+import About from './about';
 /**
  * Renders the GitProfile component.
  *

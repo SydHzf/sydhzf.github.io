@@ -1,4 +1,5 @@
-import CONFIG from '../../gitprofile.config';
+import CONFIG from '../../../gitprofile.config';
+
 
 const About = () => {
   return (
