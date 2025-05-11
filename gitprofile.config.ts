@@ -94,10 +94,17 @@ const CONFIG = {
 ],
   experiences: [
     {
+      company: 'Pakistab Single Window',
+      position: 'Data Engineer - I',
+      from: 'April 2025',
+      to: 'Present',
+      companyLink: 'https://www.psw.gov.pk/',
+    },
+    {
       company: 'StackWeavers',
       position: 'Data Engineer',
       from: 'November 2022',
-      to: 'Present',
+      to: 'March 2025',
       companyLink: 'https://www.stackweavers.com/',
     },
     {
